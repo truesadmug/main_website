@@ -1,0 +1,33 @@
+/* This file is intentionally left blank. */
+body {
+  background-color: #f0f0f0; /* Fallback color */
+  background: url(../assets/background.png) no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.didact-gothic-regular {
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.coming-soon {
+  color: white;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.watermark {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(15vw, 100px);
+  height: auto;
+  opacity: 0.8;
+}
